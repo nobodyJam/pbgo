@@ -1,4 +1,4 @@
-package common
+package pbgo
 
 func GetCommonData() string {
     return "Common Data"
