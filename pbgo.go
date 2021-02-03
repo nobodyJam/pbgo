@@ -5,7 +5,7 @@ func GetCommonData2() string {
 }
 
 func GetCommonData() string {
-    return "Common Dat2222wwwww22a"
+    return "Common Dat222嗯嗯嗯w22a"
 }
 
 func GetData() string {
