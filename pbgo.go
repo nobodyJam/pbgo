@@ -1,7 +1,7 @@
 package pbgo
 
 func GetCommonData() string {
-    return "Common Data"
+    return "Common Dat222222a"
 }
 
 func GetData() string {
