@@ -20,7 +20,7 @@ char* test(){
 	    fprintf(stderr, "Error in CreateSession\n");    
 	    return (char*)"Error in CreateSession\n";  
 	}
-	pbgroup group = session->FindGroup(_T("u1"),      pbgroup_userobject);  
+	pbgroup group = session->FindGroup(_T("u1"),pbgroup_userobject);  
 	if (group == NULL)   return (char*)"Error in CreateSession\n";      // Now find the class nvo_mult in the group   
     pbfieldID fid = session->GetGlobalVarID(_T("gs_pb"));
     session->SetStringGlobalVar(fid,_T("2.0.0"));
